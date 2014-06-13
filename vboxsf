@@ -1,0 +1,3 @@
+mkdir -p /Users
+modprobe vboxsf
+mount -t vboxsf Users /Users
