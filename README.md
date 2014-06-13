@@ -16,6 +16,7 @@ vi Dockerfile     # Update VBOX_VERSION with the version of VirtualBox you're ru
 bash update.sh
 
 ## Using Docker volume mapping after patching is done
+```
  $ cd /Users/larsla/Code/my_project
  $ docker run -i -t -v $PWD:/my_project base bash
  root@24e68e83c74f:/# df -h
@@ -32,3 +33,4 @@ bash update.sh
  tmpfs           501M     0  501M   0% /proc/kcore
  root@24e68e83c74f:/# ls /my_project
   this_is_my_project.txt
+```
