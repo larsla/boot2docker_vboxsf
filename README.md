@@ -10,10 +10,12 @@ downloads and installs the VBoxGuestAdditions from Virtualbox.
 Then it adds a shared volume to Virtualbox that maps /Users on your host machine to /Users in the boot2docker vm.
 
 ## Update boot2docker
-git clone https://github.com/larsla/boot2docker_vboxsf.git
-cd boot2docker_vboxsf
-vi Dockerfile     # Update VBOX_VERSION with the version of VirtualBox you're running
-bash update.sh
+```
+ git clone https://github.com/larsla/boot2docker_vboxsf.git
+ cd boot2docker_vboxsf
+ vi Dockerfile     # Update VBOX_VERSION with the version of VirtualBox you're running
+ bash update.sh
+```
 
 ## Using Docker volume mapping after patching is done
 ```
